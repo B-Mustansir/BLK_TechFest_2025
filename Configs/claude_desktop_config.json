@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "Finance Demo": {
+      "command": "C:\\Users\\username\\.cargo\\bin\\uv.EXE",
+      "args": [
+        "run",
+        "--with",
+        "mcp[cli]",
+        "--with",
+        "requests",
+        "mcp",
+        "run",
+        "D:\\BLK_TechFest_2025\\Finance\\main.py"
+      ]
+    },
+    "ethers-server": {
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "D:\\BLK_TechFest_2025\\Crypto\\index.js"
+      ],
+      "env": {
+        "BASE_SEPOLIA_RPC_URL": "https://sepolia.base.org",
+        "BRUCE_WAYNE_PRIVATE_KEY": ""
+      }
+    }
+  }
+}

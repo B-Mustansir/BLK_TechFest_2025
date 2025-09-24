@@ -1,0 +1,16 @@
+{
+	"servers": {
+		"ethers-server": {
+			"type": "stdio",
+			"command": "C:\\Program Files\\nodejs\\node.exe",
+			"args": [
+				"D:\\BLK_TechFest_2025\\Crypto\\index.js"
+			],
+			"env": {
+				"BASE_SEPOLIA_RPC_URL": "https://sepolia.base.org",
+				"BRUCE_WAYNE_PRIVATE_KEY": ""
+			}
+		}
+	},
+	"inputs": []
+}
